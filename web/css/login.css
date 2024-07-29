@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.login-container {
+    background: rgba(15, 15, 15, 0.9);
+    border-radius: 10px;
+    padding: 40px;
+    width: 400px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.top header {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    height: 50px;
+    width: 100%;
+    padding: 0 45px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.input-field:hover, .input-field:focus {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.input-box i {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.submit {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0f0f0f;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.submit:hover {
+    background: #f0f0f0;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+      
